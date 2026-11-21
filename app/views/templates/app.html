@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block page %}app{% endblock %}
+{% block body %}
+<header class="top">
+  <div class="brand">Rx<span>D</span><small>kidney-safe dosing assistant</small></div>
+  <div class="top-right">
+    {% if user.role in ['pharmacist', 'admin'] %}
+    <button class="ghost" id="open-rules" type="button">Rules</button>
+    <button class="ghost" id="open-audit" type="button">Audit</button>
+    {% endif %}
+    <span class="me">{{ user.username }} <em>{{ user.role }}</em></span>
+    <form method="post" action="/logout"><button class="ghost" type="submit">Sign out</button></form>
+  </div>
+</header>
+
+<div class="picker">
+  <label for="patient">Patient</label>
+  <select id="patient"></select>
+  <span id="kidney-strip" class="pills"></span>
+</div>
+
+<main class="split">
+  <section class="card" aria-labelledby="h-intake">
+    <h2 id="h-intake">1 · Patient intake</h2>
+    <p class="sub" id="intake-help">Only the name is required. Saving adds everything to the assistant's knowledge.</p>
+
+    <form id="intake-form" autocomplete="off">
+      <h3>Patient</h3>
+      <label>Name (required)<input name="name" maxlength="120" required placeholder="Full name (synthetic)"></label>
+      <div class="row">
+        <label>Age<input name="age" type="number" min="0" max="120"></label>
+        <label>Sex<select name="sex"><option value="">Not stated</option><option value="F">Female</option><option value="M">Male</option></select></label>
+      </div>
+
+      <h3>This visit</h3>
+      <label>Reason for visit<input name="chief_complaint" maxlength="500" placeholder="e.g. Heartburn after meals for 4 weeks"></label>
+      <label>Symptoms<textarea name="symptoms" rows="2" maxlength="2000"></textarea></label>
+      <label>History<textarea name="history" rows="2" maxlength="4000"></textarea></label>
+
+      <h3>Background</h3>
+      <label>Conditions <span class="hint">separate with commas</span><input name="conditions" placeholder="Type 2 diabetes, Hypertension"></label>
+      <label>Current medications <span class="hint">one per line: name, dose, how often</span>
+        <textarea name="medications" rows="3" placeholder="metformin 1000 mg twice daily&#10;lisinopril 10 mg once daily"></textarea></label>
+      <label>Allergies <span class="hint">separate with commas</span><input name="allergies" placeholder="penicillin"></label>
+
+      <h3>Measurements</h3>
+      <div class="row three">
+        <label>Weight (kg)<input name="weight_kg" type="number" step="0.1" min="0.1" max="400"></label>
+        <label>Creatinine (mg/dL)<input name="serum_creatinine_mg_dl" type="number" step="0.01" min="0.1" max="30"></label>
+        <label>Creatinine date<input name="creatinine_date" type="date"></label>
+      </div>
+      <label class="check"><input name="on_dialysis" type="checkbox"> On dialysis</label>
+      <div class="preview" id="preview" aria-live="polite">Enter age, sex and creatinine to see a kidney preview.</div>
+
+      <label>Other notes<textarea name="notes" rows="2" maxlength="4000"></textarea></label>
+
+      <p class="err" id="intake-err" hidden></p>
+      <button class="primary wide" type="submit" id="save">Save intake</button>
+    </form>
+
+    <div id="notes-box" class="notes" hidden>
+      <h3>Attached notes</h3>
+      <label class="upload"><input id="file" type="file" accept=".pdf,.txt,.md,.docx" hidden><span class="link">+ Attach a note (pdf, txt, md, docx)</span></label>
+      <ul id="docs" class="rows"></ul>
+    </div>
+  </section>
+
+  <section class="card chat" aria-labelledby="h-chat">
+    <div class="chat-head"><h2 id="h-chat">2 · Assistant</h2><span id="chat-about" class="sub"></span></div>
+    <div id="thread" class="thread" aria-live="polite"></div>
+    <div id="quick" class="quick" aria-label="Suggested questions"></div>
+    <form id="chat-form" class="chat-form">
+      <input id="msg" placeholder="Ask about this patient…" aria-label="Your message" maxlength="1000" autocomplete="off">
+      <button class="primary" type="submit" id="send">Send</button>
+    </form>
+  </section>
+</main>
+
+<dialog id="dlg-info"><div class="dlg-body"><h2 id="info-title"></h2><div id="info-body"></div>
+  <div class="dlg-actions"><button type="button" class="ghost" data-close>Close</button></div></div></dialog>
+{% endblock %}

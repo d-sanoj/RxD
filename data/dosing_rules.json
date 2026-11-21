@@ -1,0 +1,75 @@
+{
+  "metformin": {
+    "product": "Metformin Hydrochloride Tablets, USP (Granules Pharmaceuticals Inc.)",
+    "measure": "eGFR",
+    "source": "openFDA drug label API, retrieved 2026-11-21",
+    "chunk_ids": [
+      "LBL-metformin-01",
+      "LBL-metformin-02",
+      "LBL-metformin-03",
+      "LBL-metformin-04",
+      "LBL-metformin-05",
+      "LBL-metformin-06"
+    ],
+    "verified_by": null
+  },
+  "sitagliptin": {
+    "product": "JANUVIA (sitagliptin) tablets",
+    "measure": "eGFR",
+    "source": "openFDA drug label API, retrieved 2026-11-21",
+    "chunk_ids": [
+      "LBL-sitagliptin-01",
+      "LBL-sitagliptin-02",
+      "LBL-sitagliptin-03",
+      "LBL-sitagliptin-04"
+    ],
+    "verified_by": null
+  },
+  "gabapentin": {
+    "product": "Gabapentin capsules/tablets (Table 1: Gabapentin Dosage Based on Renal Function)",
+    "measure": "CrCl",
+    "source": "openFDA drug label API, retrieved 2026-11-21",
+    "chunk_ids": [
+      "LBL-gabapentin-01",
+      "LBL-gabapentin-02",
+      "LBL-gabapentin-03",
+      "LBL-gabapentin-04",
+      "LBL-gabapentin-05",
+      "LBL-gabapentin-06"
+    ],
+    "verified_by": null
+  },
+  "nitrofurantoin": {
+    "product": "Nitrofurantoin (set_id 04af8b73-7e15-7da8-e063-6294a90af284)",
+    "measure": "CrCl",
+    "source": "openFDA drug label API, retrieved 2026-11-21",
+    "chunk_ids": [
+      "LBL-nitrofurantoin-01",
+      "LBL-nitrofurantoin-02"
+    ],
+    "verified_by": null
+  },
+  "levofloxacin": {
+    "product": "Levofloxacin tablets (Table 3: Dosage Adjustment in Adult Patients with Renal Impairment)",
+    "measure": "CrCl",
+    "source": "openFDA drug label API, retrieved 2026-11-21",
+    "chunk_ids": [
+      "LBL-levofloxacin-01",
+      "LBL-levofloxacin-02",
+      "LBL-levofloxacin-03"
+    ],
+    "verified_by": null
+  },
+  "famotidine": {
+    "product": "Famotidine Tablets, USP 20 mg and 40 mg",
+    "measure": "CrCl",
+    "source": "openFDA drug label API, retrieved 2026-11-21",
+    "chunk_ids": [
+      "LBL-famotidine-01",
+      "LBL-famotidine-02",
+      "LBL-famotidine-03",
+      "LBL-famotidine-04"
+    ],
+    "verified_by": null
+  }
+}

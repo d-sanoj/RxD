@@ -1,0 +1,125 @@
+example_id,patient_id,scenario,drug,age,sex,weight_kg,scr_mg_dl,lab_age_days,egfr,crcl,dialysis,expected_action,recommended_dose
+EX0001,P001,diabetes_cont,metformin,72,F,60,2.0,12,26.1,24.1,no,avoid,
+EX0002,P001,neuropathy_300,gabapentin,72,F,60,2.0,12,26.1,24.1,no,adjust_dose,200 mg once daily
+EX0003,P001,uti,nitrofurantoin,72,F,60,2.0,12,26.1,24.1,no,avoid,
+EX0004,P001,gerd,famotidine,72,F,60,2.0,12,26.1,24.1,no,adjust_dose,20 mg every other day (or 10 mg once daily using another formulation)
+EX0005,P002,pneumonia_500,levofloxacin,58,M,92,0.9,47,99.0,116.4,no,continue,500 mg every 24 hours
+EX0006,P002,diabetes_dpp4,sitagliptin,58,M,92,0.9,47,99.0,116.4,no,continue,100 mg once daily
+EX0007,P002,diabetes_new,metformin,58,M,92,0.9,47,99.0,116.4,no,continue,500 mg twice daily with meals
+EX0008,P003,pneumonia_500,levofloxacin,45,F,70,0.7,37,108.6,112.2,no,continue,500 mg every 24 hours
+EX0009,P003,neuropathy_600,gabapentin,45,F,70,0.7,37,108.6,112.2,no,continue,600 mg three times daily
+EX0010,P003,diabetes_cont,metformin,45,F,70,0.7,37,108.6,112.2,no,continue,1000 mg twice daily
+EX0011,P004,gerd,famotidine,66,M,80,1.1,55,74.0,74.7,no,continue,"20 mg twice daily, up to 6 weeks"
+EX0012,P004,pneumonia_750,levofloxacin,66,M,80,1.1,55,74.0,74.7,no,continue,750 mg every 24 hours
+EX0013,P004,diabetes_new,metformin,66,M,80,1.1,55,74.0,74.7,no,continue,500 mg twice daily with meals
+EX0014,P004,uti,nitrofurantoin,66,M,80,1.1,55,74.0,74.7,no,continue,Usual labeled dose (no renal adjustment)
+EX0015,P004,neuropathy_600,gabapentin,66,M,80,1.1,55,74.0,74.7,no,continue,600 mg three times daily
+EX0016,P005,neuropathy_300,gabapentin,61,F,74,0.9,37,72.7,76.7,no,continue,300 mg three times daily
+EX0017,P005,diabetes_cont,metformin,61,F,74,0.9,37,72.7,76.7,no,continue,1000 mg twice daily
+EX0018,P005,uti,nitrofurantoin,61,F,74,0.9,37,72.7,76.7,no,continue,Usual labeled dose (no renal adjustment)
+EX0019,P005,pneumonia_500,levofloxacin,61,F,74,0.9,37,72.7,76.7,no,continue,500 mg every 24 hours
+EX0020,P006,pneumonia_750,levofloxacin,70,M,85,1.3,56,59.1,63.6,no,continue,750 mg every 24 hours
+EX0021,P006,uti,nitrofurantoin,70,M,85,1.3,56,59.1,63.6,no,continue,Usual labeled dose (no renal adjustment)
+EX0022,P006,diabetes_cont,metformin,70,M,85,1.3,56,59.1,63.6,no,continue,1000 mg twice daily
+EX0023,P007,neuropathy_300,gabapentin,68,F,66,1.1,18,54.7,51.0,no,adjust_dose,200 mg twice daily
+EX0024,P007,diabetes_cont,metformin,68,F,66,1.1,18,54.7,51.0,no,continue,1000 mg twice daily
+EX0025,P007,neuropathy_600,gabapentin,68,F,66,1.1,18,54.7,51.0,no,adjust_dose,400 mg twice daily
+EX0026,P007,gerd,famotidine,68,F,66,1.1,18,54.7,51.0,no,adjust_dose,20 mg once daily
+EX0027,P008,diabetes_dpp4,sitagliptin,77,M,72,1.5,12,47.7,42.0,no,continue,100 mg once daily
+EX0028,P008,diabetes_new,metformin,77,M,72,1.5,12,47.7,42.0,no,continue,500 mg twice daily with meals
+EX0029,P008,pneumonia_500,levofloxacin,77,M,72,1.5,12,47.7,42.0,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0030,P008,neuropathy_300,gabapentin,77,M,72,1.5,12,47.7,42.0,no,adjust_dose,200 mg twice daily
+EX0031,P009,diabetes_dpp4,sitagliptin,74,F,58,1.3,52,43.1,34.8,no,adjust_dose,50 mg once daily
+EX0032,P009,pneumonia_750,levofloxacin,74,F,58,1.3,52,43.1,34.8,no,adjust_dose,750 mg every 48 hours
+EX0033,P009,gerd,famotidine,74,F,58,1.3,52,43.1,34.8,no,adjust_dose,20 mg once daily
+EX0034,P010,uti,nitrofurantoin,63,M,95,1.7,49,44.7,59.8,no,avoid,
+EX0035,P010,pneumonia_750,levofloxacin,63,M,95,1.7,49,44.7,59.8,no,continue,750 mg every 24 hours
+EX0036,P010,neuropathy_600,gabapentin,63,M,95,1.7,49,44.7,59.8,no,adjust_dose,400 mg twice daily
+EX0037,P010,diabetes_new,metformin,63,M,95,1.7,49,44.7,59.8,no,avoid,
+EX0038,P011,diabetes_cont,metformin,80,F,55,1.4,53,38.0,27.8,no,caution,
+EX0039,P011,diabetes_dpp4,sitagliptin,80,F,55,1.4,53,38.0,27.8,no,adjust_dose,50 mg once daily
+EX0040,P011,uti,nitrofurantoin,80,F,55,1.4,53,38.0,27.8,no,avoid,
+EX0041,P011,pneumonia_500,levofloxacin,80,F,55,1.4,53,38.0,27.8,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0042,P011,gerd,famotidine,80,F,55,1.4,53,38.0,27.8,no,adjust_dose,20 mg every other day (or 10 mg once daily using another formulation)
+EX0043,P012,pneumonia_500,levofloxacin,71,M,78,1.9,26,37.2,39.3,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0044,P012,uti,nitrofurantoin,71,M,78,1.9,26,37.2,39.3,no,avoid,
+EX0045,P012,diabetes_cont,metformin,71,M,78,1.9,26,37.2,39.3,no,caution,
+EX0046,P012,diabetes_dpp4,sitagliptin,71,M,78,1.9,26,37.2,39.3,no,adjust_dose,50 mg once daily
+EX0047,P012,neuropathy_300,gabapentin,71,M,78,1.9,26,37.2,39.3,no,adjust_dose,200 mg twice daily
+EX0048,P013,neuropathy_600,gabapentin,59,F,82,1.6,49,36.9,49.0,no,adjust_dose,400 mg twice daily
+EX0049,P013,pneumonia_750,levofloxacin,59,F,82,1.6,49,36.9,49.0,no,adjust_dose,750 mg every 48 hours
+EX0050,P013,diabetes_new,metformin,59,F,82,1.6,49,36.9,49.0,no,avoid,
+EX0051,P014,diabetes_dpp4,sitagliptin,82,M,64,2.1,30,30.8,24.6,no,adjust_dose,50 mg once daily
+EX0052,P014,uti,nitrofurantoin,82,M,64,2.1,30,30.8,24.6,no,avoid,
+EX0053,P014,diabetes_cont,metformin,82,M,64,2.1,30,30.8,24.6,no,caution,
+EX0054,P014,pneumonia_500,levofloxacin,82,M,64,2.1,30,30.8,24.6,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0055,P015,neuropathy_300,gabapentin,76,F,52,1.9,13,27.0,20.7,no,adjust_dose,200 mg once daily
+EX0056,P015,gerd,famotidine,76,F,52,1.9,13,27.0,20.7,no,adjust_dose,20 mg every other day (or 10 mg once daily using another formulation)
+EX0057,P015,pneumonia_500,levofloxacin,76,F,52,1.9,13,27.0,20.7,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0058,P015,diabetes_cont,metformin,76,F,52,1.9,13,27.0,20.7,no,avoid,
+EX0059,P015,uti,nitrofurantoin,76,F,52,1.9,13,27.0,20.7,no,avoid,
+EX0060,P016,uti,nitrofurantoin,69,M,88,2.6,29,25.9,33.4,no,avoid,
+EX0061,P016,neuropathy_600,gabapentin,69,M,88,2.6,29,25.9,33.4,no,adjust_dose,400 mg twice daily
+EX0062,P016,diabetes_new,metformin,69,M,88,2.6,29,25.9,33.4,no,avoid,
+EX0063,P017,diabetes_cont,metformin,67,F,61,2.4,52,21.6,21.9,no,avoid,
+EX0064,P017,uti,nitrofurantoin,67,F,61,2.4,52,21.6,21.9,no,avoid,
+EX0065,P017,neuropathy_600,gabapentin,67,F,61,2.4,52,21.6,21.9,no,adjust_dose,400 mg once daily
+EX0066,P017,diabetes_dpp4,sitagliptin,67,F,61,2.4,52,21.6,21.9,no,adjust_dose,25 mg once daily
+EX0067,P017,pneumonia_500,levofloxacin,67,F,61,2.4,52,21.6,21.9,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0068,P018,diabetes_cont,metformin,74,M,70,3.2,43,19.6,20.1,no,avoid,
+EX0069,P018,gerd,famotidine,74,M,70,3.2,43,19.6,20.1,no,adjust_dose,20 mg every other day (or 10 mg once daily using another formulation)
+EX0070,P018,pneumonia_750,levofloxacin,74,M,70,3.2,43,19.6,20.1,no,adjust_dose,750 mg every 48 hours
+EX0071,P018,pneumonia_500,levofloxacin,74,M,70,3.2,43,19.6,20.1,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0072,P019,gerd,famotidine,79,F,57,2.9,38,16.0,14.2,no,adjust_dose,20 mg every other day (or 10 mg once daily using another formulation)
+EX0073,P019,pneumonia_750,levofloxacin,79,F,57,2.9,38,16.0,14.2,no,adjust_dose,"750 mg initial dose, then 500 mg every 48 hours"
+EX0074,P019,neuropathy_300,gabapentin,79,F,57,2.9,38,16.0,14.2,no,adjust_dose,"100 mg once daily, reduced further in proportion to CrCl if below 15"
+EX0075,P019,diabetes_cont,metformin,79,F,57,2.9,38,16.0,14.2,no,avoid,
+EX0076,P020,gerd,famotidine,60,M,101,3.8,31,17.4,29.5,no,adjust_dose,20 mg every other day (or 10 mg once daily using another formulation)
+EX0077,P020,uti,nitrofurantoin,60,M,101,3.8,31,17.4,29.5,no,avoid,
+EX0078,P020,pneumonia_500,levofloxacin,60,M,101,3.8,31,17.4,29.5,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0079,P020,diabetes_dpp4,sitagliptin,60,M,101,3.8,31,17.4,29.5,no,adjust_dose,25 mg once daily
+EX0080,P020,pneumonia_750,levofloxacin,60,M,101,3.8,31,17.4,29.5,no,adjust_dose,750 mg every 48 hours
+EX0081,P021,diabetes_cont,metformin,71,F,63,4.5,33,9.9,11.4,no,avoid,
+EX0082,P021,pneumonia_750,levofloxacin,71,F,63,4.5,33,9.9,11.4,no,adjust_dose,"750 mg initial dose, then 500 mg every 48 hours"
+EX0083,P021,neuropathy_300,gabapentin,71,F,63,4.5,33,9.9,11.4,no,adjust_dose,"100 mg once daily, reduced further in proportion to CrCl if below 15"
+EX0084,P021,diabetes_dpp4,sitagliptin,71,F,63,4.5,33,9.9,11.4,no,adjust_dose,25 mg once daily
+EX0085,P022,uti,nitrofurantoin,65,M,76,6.8,44,8.4,11.6,yes,avoid,
+EX0086,P022,neuropathy_600,gabapentin,65,M,76,6.8,44,8.4,11.6,yes,adjust_dose,"150 mg once daily, plus 200 mg after each 4 hours of hemodialysis"
+EX0087,P022,diabetes_new,metformin,65,M,76,6.8,44,8.4,11.6,yes,avoid,
+EX0088,P023,pneumonia_500,levofloxacin,58,F,68,7.4,10,5.9,8.9,yes,adjust_dose,"500 mg initial dose, then 250 mg every 48 hours"
+EX0089,P023,gerd,famotidine,58,F,68,7.4,10,5.9,8.9,yes,adjust_dose,20 mg every other day (or 10 mg once daily using another formulation)
+EX0090,P023,uti,nitrofurantoin,58,F,68,7.4,10,5.9,8.9,yes,avoid,
+EX0091,P024,neuropathy_300,gabapentin,73,M,81,8.1,3,6.5,9.3,yes,adjust_dose,"100 mg once daily, plus 125 mg after each 4 hours of hemodialysis"
+EX0092,P024,neuropathy_600,gabapentin,73,M,81,8.1,3,6.5,9.3,yes,adjust_dose,"150 mg once daily, plus 200 mg after each 4 hours of hemodialysis"
+EX0093,P024,diabetes_dpp4,sitagliptin,73,M,81,8.1,3,6.5,9.3,yes,adjust_dose,25 mg once daily
+EX0094,P024,pneumonia_750,levofloxacin,73,M,81,8.1,3,6.5,9.3,yes,adjust_dose,"750 mg initial dose, then 500 mg every 48 hours"
+EX0095,P025,diabetes_cont,metformin,55,M,,1.4,54,59.4,,no,continue,1000 mg twice daily
+EX0096,P025,gerd,famotidine,55,M,,1.4,54,59.4,,no,insufficient_information,
+EX0097,P025,pneumonia_750,levofloxacin,55,M,,1.4,54,59.4,,no,insufficient_information,
+EX0098,P025,diabetes_dpp4,sitagliptin,55,M,,1.4,54,59.4,,no,continue,100 mg once daily
+EX0099,P026,uti,nitrofurantoin,62,F,,2.2,49,24.7,,no,avoid,
+EX0100,P026,neuropathy_300,gabapentin,62,F,,2.2,49,24.7,,no,insufficient_information,
+EX0101,P026,diabetes_cont,metformin,62,F,,2.2,49,24.7,,no,avoid,
+EX0102,P026,neuropathy_600,gabapentin,62,F,,2.2,49,24.7,,no,insufficient_information,
+EX0103,P027,diabetes_dpp4,sitagliptin,68,M,84,1.8,253,40.5,46.7,no,insufficient_information,
+EX0104,P027,gerd,famotidine,68,M,84,1.8,253,40.5,46.7,no,insufficient_information,
+EX0105,P027,uti,nitrofurantoin,68,M,84,1.8,253,40.5,46.7,no,insufficient_information,
+EX0106,P027,pneumonia_500,levofloxacin,68,M,84,1.8,253,40.5,46.7,no,insufficient_information,
+EX0107,P028,uti,nitrofurantoin,75,F,59,1.6,377,33.4,28.3,no,insufficient_information,
+EX0108,P028,neuropathy_300,gabapentin,75,F,59,1.6,377,33.4,28.3,no,insufficient_information,
+EX0109,P028,diabetes_new,metformin,75,F,59,1.6,377,33.4,28.3,no,insufficient_information,
+EX0110,P028,gerd,famotidine,75,F,59,1.6,377,33.4,28.3,no,insufficient_information,
+EX0111,P028,pneumonia_500,levofloxacin,75,F,59,1.6,377,33.4,28.3,no,insufficient_information,
+EX0112,P029,pneumonia_500,levofloxacin,50,M,110,1.0,49,91.7,137.5,no,continue,500 mg every 24 hours
+EX0113,P029,uti,nitrofurantoin,50,M,110,1.0,49,91.7,137.5,no,continue,Usual labeled dose (no renal adjustment)
+EX0114,P029,diabetes_cont,metformin,50,M,110,1.0,49,91.7,137.5,no,continue,1000 mg twice daily
+EX0115,P030,pneumonia_750,levofloxacin,84,F,49,1.2,52,44.6,27.0,no,adjust_dose,750 mg every 48 hours
+EX0116,P030,gerd,famotidine,84,F,49,1.2,52,44.6,27.0,no,adjust_dose,20 mg every other day (or 10 mg once daily using another formulation)
+EX0117,P030,diabetes_new,metformin,84,F,49,1.2,52,44.6,27.0,no,avoid,
+EX0118,P030,pneumonia_500,levofloxacin,84,F,49,1.2,52,44.6,27.0,no,adjust_dose,"500 mg initial dose, then 250 mg every 24 hours"
+EX0119,P021,unknown_drug,apixaban,71,F,63,4.5,33,9.9,11.4,no,insufficient_information,
+EX0120,P004,unknown_drug,apixaban,66,M,80,1.1,55,74.0,74.7,no,insufficient_information,
+EX0121,P010,unknown_drug,apixaban,63,M,95,1.7,49,44.7,59.8,no,insufficient_information,
+EX0122,P016,unknown_drug,apixaban,69,M,88,2.6,29,25.9,33.4,no,insufficient_information,
+EX0123,P019,unknown_drug,apixaban,79,F,57,2.9,38,16.0,14.2,no,insufficient_information,
+EX0124,P030,unknown_drug,apixaban,84,F,49,1.2,52,44.6,27.0,no,insufficient_information,

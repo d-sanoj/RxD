@@ -1,0 +1,1648 @@
+[
+  {
+    "id": "P001",
+    "name": "Maria Lopez (synthetic)",
+    "sex": "F",
+    "age": 72,
+    "weight_kg": 60,
+    "height_cm": 158,
+    "scr": 2.0,
+    "scr_date": "2026-11-09",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Diabetic peripheral neuropathy",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 26.1,
+      "crcl": 24.1,
+      "stage": "G4"
+    },
+    "background": "Maria Lopez (synthetic) is a 72-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Diabetic peripheral neuropathy, Heartburn (symptomatic nonerosive GERD), Suspected uncomplicated cystitis, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: penicillin. Weight 60 kg. Most recent serum creatinine 2.0 mg/dL on 2026-11-09. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      }
+    ]
+  },
+  {
+    "id": "P002",
+    "name": "Raj Moreno (synthetic)",
+    "sex": "M",
+    "age": 58,
+    "weight_kg": 92,
+    "height_cm": 178,
+    "scr": 0.9,
+    "scr_date": "2026-10-05",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 99.0,
+      "crcl": 116.4,
+      "stage": "G1"
+    },
+    "background": "Raj Moreno (synthetic) is a 58-year-old woman seen in primary care. Known conditions: Hypertension, Acute bacterial sinusitis, penicillin allergy, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: penicillin. Weight 92 kg. Most recent serum creatinine 0.9 mg/dL on 2026-10-05. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P003",
+    "name": "Priya Rossi (synthetic)",
+    "sex": "F",
+    "age": 45,
+    "weight_kg": 70,
+    "height_cm": 170,
+    "scr": 0.7,
+    "scr_date": "2026-10-15",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Post-herpetic neuralgia",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 108.6,
+      "crcl": 112.2,
+      "stage": "G1"
+    },
+    "background": "Priya Rossi (synthetic) is a 45-year-old woman seen in primary care. Known conditions: Hypertension, Acute bacterial sinusitis, penicillin allergy, Post-herpetic neuralgia, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: penicillin. Weight 70 kg. Most recent serum creatinine 0.7 mg/dL on 2026-10-15. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P004",
+    "name": "James Novak (synthetic)",
+    "sex": "M",
+    "age": 66,
+    "weight_kg": 80,
+    "height_cm": 189,
+    "scr": 1.1,
+    "scr_date": "2026-09-27",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Community-acquired pneumonia",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Post-herpetic neuralgia",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 74.0,
+      "crcl": 74.7,
+      "stage": "G2"
+    },
+    "background": "James Novak (synthetic) is a 66-year-old woman seen in primary care. Known conditions: Hypertension, Community-acquired pneumonia, Heartburn (symptomatic nonerosive GERD), Post-herpetic neuralgia, Suspected uncomplicated cystitis, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: codeine. Weight 80 kg. Most recent serum creatinine 1.1 mg/dL on 2026-09-27. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      }
+    ]
+  },
+  {
+    "id": "P005",
+    "name": "Rosa Fischer (synthetic)",
+    "sex": "F",
+    "age": 61,
+    "weight_kg": 74,
+    "height_cm": 170,
+    "scr": 0.9,
+    "scr_date": "2026-10-15",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Diabetic peripheral neuropathy",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 72.7,
+      "crcl": 76.7,
+      "stage": "G2"
+    },
+    "background": "Rosa Fischer (synthetic) is a 61-year-old woman seen in primary care. Known conditions: Hypertension, Acute bacterial sinusitis, penicillin allergy, Diabetic peripheral neuropathy, Suspected uncomplicated cystitis, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: none known. Weight 74 kg. Most recent serum creatinine 0.9 mg/dL on 2026-10-15. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  },
+  {
+    "id": "P006",
+    "name": "Ahmed Mwangi (synthetic)",
+    "sex": "M",
+    "age": 70,
+    "weight_kg": 85,
+    "height_cm": 173,
+    "scr": 1.3,
+    "scr_date": "2026-09-26",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Community-acquired pneumonia",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 59.1,
+      "crcl": 63.6,
+      "stage": "G3a"
+    },
+    "background": "Ahmed Mwangi (synthetic) is a 70-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Community-acquired pneumonia, Suspected uncomplicated cystitis, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: codeine. Weight 85 kg. Most recent serum creatinine 1.3 mg/dL on 2026-09-26. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P007",
+    "name": "Tanya Mensah (synthetic)",
+    "sex": "F",
+    "age": 68,
+    "weight_kg": 66,
+    "height_cm": 153,
+    "scr": 1.1,
+    "scr_date": "2026-11-03",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Diabetic peripheral neuropathy",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Post-herpetic neuralgia",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 54.7,
+      "crcl": 51.0,
+      "stage": "G3a"
+    },
+    "background": "Tanya Mensah (synthetic) is a 68-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Diabetic peripheral neuropathy, Heartburn (symptomatic nonerosive GERD), Post-herpetic neuralgia, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: none known. Weight 66 kg. Most recent serum creatinine 1.1 mg/dL on 2026-11-03. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      }
+    ]
+  },
+  {
+    "id": "P008",
+    "name": "Raj Iyer (synthetic)",
+    "sex": "M",
+    "age": 77,
+    "weight_kg": 72,
+    "height_cm": 169,
+    "scr": 1.5,
+    "scr_date": "2026-11-09",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Diabetic peripheral neuropathy",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 47.7,
+      "crcl": 42.0,
+      "stage": "G3a"
+    },
+    "background": "Raj Iyer (synthetic) is a 77-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Diabetic peripheral neuropathy, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: none known. Weight 72 kg. Most recent serum creatinine 1.5 mg/dL on 2026-11-09. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      }
+    ]
+  },
+  {
+    "id": "P009",
+    "name": "Ruth Novak (synthetic)",
+    "sex": "F",
+    "age": 74,
+    "weight_kg": 58,
+    "height_cm": 175,
+    "scr": 1.3,
+    "scr_date": "2026-09-30",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Community-acquired pneumonia",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 43.1,
+      "crcl": 34.8,
+      "stage": "G3b"
+    },
+    "background": "Ruth Novak (synthetic) is a 74-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Community-acquired pneumonia, Heartburn (symptomatic nonerosive GERD), Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: codeine. Weight 58 kg. Most recent serum creatinine 1.3 mg/dL on 2026-09-30. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      }
+    ]
+  },
+  {
+    "id": "P010",
+    "name": "Frank Iyer (synthetic)",
+    "sex": "M",
+    "age": 63,
+    "weight_kg": 95,
+    "height_cm": 186,
+    "scr": 1.7,
+    "scr_date": "2026-10-03",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Community-acquired pneumonia",
+      "Post-herpetic neuralgia",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 44.7,
+      "crcl": 59.8,
+      "stage": "G3b"
+    },
+    "background": "Frank Iyer (synthetic) is a 63-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Community-acquired pneumonia, Post-herpetic neuralgia, Suspected uncomplicated cystitis, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: none known. Weight 95 kg. Most recent serum creatinine 1.7 mg/dL on 2026-10-03. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P011",
+    "name": "Rosa Walsh (synthetic)",
+    "sex": "F",
+    "age": 80,
+    "weight_kg": 55,
+    "height_cm": 159,
+    "scr": 1.4,
+    "scr_date": "2026-09-29",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 38.0,
+      "crcl": 27.8,
+      "stage": "G3b"
+    },
+    "background": "Rosa Walsh (synthetic) is a 80-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Heartburn (symptomatic nonerosive GERD), Suspected uncomplicated cystitis, Type 2 diabetes, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: penicillin. Weight 55 kg. Most recent serum creatinine 1.4 mg/dL on 2026-09-29. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      }
+    ]
+  },
+  {
+    "id": "P012",
+    "name": "Ivan Brown (synthetic)",
+    "sex": "M",
+    "age": 71,
+    "weight_kg": 78,
+    "height_cm": 168,
+    "scr": 1.9,
+    "scr_date": "2026-10-26",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Diabetic peripheral neuropathy",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 37.2,
+      "crcl": 39.3,
+      "stage": "G3b"
+    },
+    "background": "Ivan Brown (synthetic) is a 71-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Diabetic peripheral neuropathy, Suspected uncomplicated cystitis, Type 2 diabetes, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: codeine. Weight 78 kg. Most recent serum creatinine 1.9 mg/dL on 2026-10-26. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      }
+    ]
+  },
+  {
+    "id": "P013",
+    "name": "Aisha Cohen (synthetic)",
+    "sex": "F",
+    "age": 59,
+    "weight_kg": 82,
+    "height_cm": 175,
+    "scr": 1.6,
+    "scr_date": "2026-10-03",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Community-acquired pneumonia",
+      "Post-herpetic neuralgia",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 36.9,
+      "crcl": 49.0,
+      "stage": "G3b"
+    },
+    "background": "Aisha Cohen (synthetic) is a 59-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Community-acquired pneumonia, Post-herpetic neuralgia, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: codeine. Weight 82 kg. Most recent serum creatinine 1.6 mg/dL on 2026-10-03. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P014",
+    "name": "Mateo Popov (synthetic)",
+    "sex": "M",
+    "age": 82,
+    "weight_kg": 64,
+    "height_cm": 175,
+    "scr": 2.1,
+    "scr_date": "2026-10-22",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 30.8,
+      "crcl": 24.6,
+      "stage": "G3b"
+    },
+    "background": "Mateo Popov (synthetic) is a 82-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Suspected uncomplicated cystitis, Type 2 diabetes, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: penicillin. Weight 64 kg. Most recent serum creatinine 2.1 mg/dL on 2026-10-22. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  },
+  {
+    "id": "P015",
+    "name": "Mei Lopez (synthetic)",
+    "sex": "F",
+    "age": 76,
+    "weight_kg": 52,
+    "height_cm": 155,
+    "scr": 1.9,
+    "scr_date": "2026-11-08",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Diabetic peripheral neuropathy",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 27.0,
+      "crcl": 20.7,
+      "stage": "G4"
+    },
+    "background": "Mei Lopez (synthetic) is a 76-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Diabetic peripheral neuropathy, Heartburn (symptomatic nonerosive GERD), Suspected uncomplicated cystitis, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: codeine. Weight 52 kg. Most recent serum creatinine 1.9 mg/dL on 2026-11-08. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      }
+    ]
+  },
+  {
+    "id": "P016",
+    "name": "Hiro Moreno (synthetic)",
+    "sex": "M",
+    "age": 69,
+    "weight_kg": 88,
+    "height_cm": 183,
+    "scr": 2.6,
+    "scr_date": "2026-10-23",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Post-herpetic neuralgia",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 25.9,
+      "crcl": 33.4,
+      "stage": "G4"
+    },
+    "background": "Hiro Moreno (synthetic) is a 69-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Post-herpetic neuralgia, Suspected uncomplicated cystitis, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: none known. Weight 88 kg. Most recent serum creatinine 2.6 mg/dL on 2026-10-23. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P017",
+    "name": "Priya Chen (synthetic)",
+    "sex": "F",
+    "age": 67,
+    "weight_kg": 61,
+    "height_cm": 169,
+    "scr": 2.4,
+    "scr_date": "2026-09-30",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Post-herpetic neuralgia",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 21.6,
+      "crcl": 21.9,
+      "stage": "G4"
+    },
+    "background": "Priya Chen (synthetic) is a 67-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Post-herpetic neuralgia, Suspected uncomplicated cystitis, Type 2 diabetes, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: penicillin. Weight 61 kg. Most recent serum creatinine 2.4 mg/dL on 2026-09-30. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  },
+  {
+    "id": "P018",
+    "name": "Peter Walsh (synthetic)",
+    "sex": "M",
+    "age": 74,
+    "weight_kg": 70,
+    "height_cm": 165,
+    "scr": 3.2,
+    "scr_date": "2026-10-09",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Community-acquired pneumonia",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 19.6,
+      "crcl": 20.1,
+      "stage": "G4"
+    },
+    "background": "Peter Walsh (synthetic) is a 74-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Community-acquired pneumonia, Heartburn (symptomatic nonerosive GERD), Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: penicillin. Weight 70 kg. Most recent serum creatinine 3.2 mg/dL on 2026-10-09. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  },
+  {
+    "id": "P019",
+    "name": "Rosa Bauer (synthetic)",
+    "sex": "F",
+    "age": 79,
+    "weight_kg": 57,
+    "height_cm": 166,
+    "scr": 2.9,
+    "scr_date": "2026-10-14",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Community-acquired pneumonia",
+      "Diabetic peripheral neuropathy",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 16.0,
+      "crcl": 14.2,
+      "stage": "G4"
+    },
+    "background": "Rosa Bauer (synthetic) is a 79-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Community-acquired pneumonia, Diabetic peripheral neuropathy, Heartburn (symptomatic nonerosive GERD), Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: codeine. Weight 57 kg. Most recent serum creatinine 2.9 mg/dL on 2026-10-14. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P020",
+    "name": "Omar Garcia (synthetic)",
+    "sex": "M",
+    "age": 60,
+    "weight_kg": 101,
+    "height_cm": 165,
+    "scr": 3.8,
+    "scr_date": "2026-10-21",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "sulfa drugs"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Community-acquired pneumonia",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 17.4,
+      "crcl": 29.5,
+      "stage": "G4"
+    },
+    "background": "Omar Garcia (synthetic) is a 60-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Community-acquired pneumonia, Heartburn (symptomatic nonerosive GERD), Suspected uncomplicated cystitis, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: sulfa drugs. Weight 101 kg. Most recent serum creatinine 3.8 mg/dL on 2026-10-21. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  },
+  {
+    "id": "P021",
+    "name": "Fatima Iyer (synthetic)",
+    "sex": "F",
+    "age": 71,
+    "weight_kg": 63,
+    "height_cm": 157,
+    "scr": 4.5,
+    "scr_date": "2026-10-19",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Community-acquired pneumonia",
+      "Diabetic peripheral neuropathy",
+      "Type 2 diabetes",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 9.9,
+      "crcl": 11.4,
+      "stage": "G5"
+    },
+    "background": "Fatima Iyer (synthetic) is a 71-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Community-acquired pneumonia, Diabetic peripheral neuropathy, Type 2 diabetes, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: codeine. Weight 63 kg. Most recent serum creatinine 4.5 mg/dL on 2026-10-19. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      }
+    ]
+  },
+  {
+    "id": "P022",
+    "name": "Kofi Kim (synthetic)",
+    "sex": "M",
+    "age": 65,
+    "weight_kg": 76,
+    "height_cm": 178,
+    "scr": 6.8,
+    "scr_date": "2026-10-08",
+    "dialysis": true,
+    "flags": [
+      "hemodialysis"
+    ],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "End-stage kidney disease on hemodialysis three times weekly",
+      "Post-herpetic neuralgia",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 8.4,
+      "crcl": 11.6,
+      "stage": "G5"
+    },
+    "background": "Kofi Kim (synthetic) is a 65-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, End-stage kidney disease on hemodialysis three times weekly, Post-herpetic neuralgia, Suspected uncomplicated cystitis, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: codeine. Weight 76 kg. Most recent serum creatinine 6.8 mg/dL on 2026-10-08. Receives hemodialysis three times weekly. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P023",
+    "name": "Ruth Osei (synthetic)",
+    "sex": "F",
+    "age": 58,
+    "weight_kg": 68,
+    "height_cm": 172,
+    "scr": 7.4,
+    "scr_date": "2026-11-11",
+    "dialysis": true,
+    "flags": [
+      "hemodialysis"
+    ],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "End-stage kidney disease on hemodialysis three times weekly",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Suspected uncomplicated cystitis"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 5.9,
+      "crcl": 8.9,
+      "stage": "G5"
+    },
+    "background": "Ruth Osei (synthetic) is a 58-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, End-stage kidney disease on hemodialysis three times weekly, Acute bacterial sinusitis, penicillin allergy, Heartburn (symptomatic nonerosive GERD), Suspected uncomplicated cystitis. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: penicillin. Weight 68 kg. Most recent serum creatinine 7.4 mg/dL on 2026-11-11. Receives hemodialysis three times weekly. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      }
+    ]
+  },
+  {
+    "id": "P024",
+    "name": "Kofi Cohen (synthetic)",
+    "sex": "M",
+    "age": 73,
+    "weight_kg": 81,
+    "height_cm": 188,
+    "scr": 8.1,
+    "scr_date": "2026-11-18",
+    "dialysis": true,
+    "flags": [
+      "hemodialysis"
+    ],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "End-stage kidney disease on hemodialysis three times weekly",
+      "Community-acquired pneumonia",
+      "Diabetic peripheral neuropathy",
+      "Post-herpetic neuralgia",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 6.5,
+      "crcl": 9.3,
+      "stage": "G5"
+    },
+    "background": "Kofi Cohen (synthetic) is a 73-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, End-stage kidney disease on hemodialysis three times weekly, Community-acquired pneumonia, Diabetic peripheral neuropathy, Post-herpetic neuralgia, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: none known. Weight 81 kg. Most recent serum creatinine 8.1 mg/dL on 2026-11-18. Receives hemodialysis three times weekly. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  },
+  {
+    "id": "P025",
+    "name": "Samuel Iyer (synthetic)",
+    "sex": "M",
+    "age": 55,
+    "weight_kg": null,
+    "height_cm": 189,
+    "scr": 1.4,
+    "scr_date": "2026-09-28",
+    "dialysis": false,
+    "flags": [
+      "missing_weight"
+    ],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Community-acquired pneumonia",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Type 2 diabetes",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 59.4,
+      "crcl": null,
+      "stage": "G3a"
+    },
+    "background": "Samuel Iyer (synthetic) is a 55-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Community-acquired pneumonia, Heartburn (symptomatic nonerosive GERD), Type 2 diabetes, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: none known. Weight not recorded. Most recent serum creatinine 1.4 mg/dL on 2026-09-28. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      }
+    ]
+  },
+  {
+    "id": "P026",
+    "name": "Mei Patel (synthetic)",
+    "sex": "F",
+    "age": 62,
+    "weight_kg": null,
+    "height_cm": 165,
+    "scr": 2.2,
+    "scr_date": "2026-10-03",
+    "dialysis": false,
+    "flags": [
+      "missing_weight"
+    ],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Diabetic peripheral neuropathy",
+      "Post-herpetic neuralgia",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 24.7,
+      "crcl": null,
+      "stage": "G4"
+    },
+    "background": "Mei Patel (synthetic) is a 62-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Diabetic peripheral neuropathy, Post-herpetic neuralgia, Suspected uncomplicated cystitis, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: none known. Weight not recorded. Most recent serum creatinine 2.2 mg/dL on 2026-10-03. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Persistent shooting pain along the left chest wall 3 months after shingles.",
+        "considered_drug": "gabapentin"
+      }
+    ]
+  },
+  {
+    "id": "P027",
+    "name": "George Tanaka (synthetic)",
+    "sex": "M",
+    "age": 68,
+    "weight_kg": 84,
+    "height_cm": 166,
+    "scr": 1.8,
+    "scr_date": "2026-03-13",
+    "dialysis": false,
+    "flags": [
+      "stale_lab"
+    ],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 40.5,
+      "crcl": 46.7,
+      "stage": "G3b"
+    },
+    "background": "George Tanaka (synthetic) is a 68-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Heartburn (symptomatic nonerosive GERD), Suspected uncomplicated cystitis, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: codeine. Weight 84 kg. Most recent serum creatinine 1.8 mg/dL on 2026-03-13. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "HbA1c 8.1% despite diet; wants a once-daily tablet.",
+        "considered_drug": "sitagliptin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  },
+  {
+    "id": "P028",
+    "name": "Rosa Haddad (synthetic)",
+    "sex": "F",
+    "age": 75,
+    "weight_kg": 59,
+    "height_cm": 153,
+    "scr": 1.6,
+    "scr_date": "2025-11-09",
+    "dialysis": false,
+    "flags": [
+      "stale_lab"
+    ],
+    "allergies": [],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Diabetic peripheral neuropathy",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 33.4,
+      "crcl": 28.3,
+      "stage": "G3b"
+    },
+    "background": "Rosa Haddad (synthetic) is a 75-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Diabetic peripheral neuropathy, Heartburn (symptomatic nonerosive GERD), Suspected uncomplicated cystitis, Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: none known. Weight 59 kg. Most recent serum creatinine 1.6 mg/dL on 2025-11-09. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning pain and numbness in both feet, worse at night, for 2 months.",
+        "considered_drug": "gabapentin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  },
+  {
+    "id": "P029",
+    "name": "Ivan Chen (synthetic)",
+    "sex": "M",
+    "age": 50,
+    "weight_kg": 110,
+    "height_cm": 184,
+    "scr": 1.0,
+    "scr_date": "2026-10-03",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "codeine"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Suspected uncomplicated cystitis",
+      "Type 2 diabetes on metformin"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily",
+      "metformin 1000 mg twice daily"
+    ],
+    "kidney": {
+      "egfr": 91.7,
+      "crcl": 137.5,
+      "stage": "G1"
+    },
+    "background": "Ivan Chen (synthetic) is a 50-year-old woman seen in primary care. Known conditions: Hypertension, Acute bacterial sinusitis, penicillin allergy, Suspected uncomplicated cystitis, Type 2 diabetes on metformin. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily, metformin 1000 mg twice daily. Allergies: codeine. Weight 110 kg. Most recent serum creatinine 1.0 mg/dL on 2026-10-03. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Painful urination, urgency and frequency for 2 days; no fever or flank pain.",
+        "considered_drug": "nitrofurantoin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Routine diabetes follow-up; HbA1c 7.6%. No new symptoms.",
+        "considered_drug": "metformin"
+      }
+    ]
+  },
+  {
+    "id": "P030",
+    "name": "Mei Okafor (synthetic)",
+    "sex": "F",
+    "age": 84,
+    "weight_kg": 49,
+    "height_cm": 165,
+    "scr": 1.2,
+    "scr_date": "2026-09-30",
+    "dialysis": false,
+    "flags": [],
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "Hypertension",
+      "Chronic kidney disease",
+      "Acute bacterial sinusitis, penicillin allergy",
+      "Community-acquired pneumonia",
+      "Heartburn (symptomatic nonerosive GERD)",
+      "Type 2 diabetes"
+    ],
+    "medications": [
+      "lisinopril 10 mg once daily",
+      "atorvastatin 20 mg once daily"
+    ],
+    "kidney": {
+      "egfr": 44.6,
+      "crcl": 27.0,
+      "stage": "G3b"
+    },
+    "background": "Mei Okafor (synthetic) is a 84-year-old woman seen in primary care. Known conditions: Hypertension, Chronic kidney disease, Acute bacterial sinusitis, penicillin allergy, Community-acquired pneumonia, Heartburn (symptomatic nonerosive GERD), Type 2 diabetes. Current medications: lisinopril 10 mg once daily, atorvastatin 20 mg once daily. Allergies: penicillin. Weight 49 kg. Most recent serum creatinine 1.2 mg/dL on 2026-09-30. Lives independently and manages own medications.",
+    "visits": [
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Productive cough, fever of 38.6 C and right lower lobe crackles for 3 days.",
+        "considered_drug": "levofloxacin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Burning chest discomfort after meals, worse lying down, for 4 weeks; no alarm symptoms.",
+        "considered_drug": "famotidine"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Increased thirst and frequent urination for 3 weeks; fasting glucose 182 mg/dL, HbA1c 8.4%.",
+        "considered_drug": "metformin"
+      },
+      {
+        "date": "2026-11-21",
+        "chief_complaint": "Facial pain and purulent nasal discharge for 12 days.",
+        "considered_drug": "levofloxacin"
+      }
+    ]
+  }
+]

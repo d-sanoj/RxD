@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block page %}login{% endblock %}
+{% block body %}
+<main class="login">
+  <div class="login-card">
+    <div class="logo">Rx<span>D</span></div>
+    <h1>Kidney-safe dosing</h1>
+    <p class="sub">Sign in to continue.</p>
+
+    {% if error %}<p class="alert" role="alert">{{ error }}</p>{% endif %}
+
+    <form method="post" action="/login">
+      <label for="username">Username</label>
+      <input id="username" name="username" autocomplete="username" required autofocus>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" required>
+      <button class="primary wide" type="submit">Sign in</button>
+    </form>
+
+    <p class="sub small">Demo accounts: click one to fill it in.</p>
+    <div class="demo">
+      {% for a in accounts %}
+      <button type="button" class="ghost" data-fill-user="{{ a.username }}" data-fill-pass="{{ a.password }}">{{ a.role }}</button>
+      {% endfor %}
+    </div>
+  </div>
+</main>
+{% endblock %}

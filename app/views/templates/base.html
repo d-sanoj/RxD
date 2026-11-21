@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RxD · kidney-safe dosing</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='css/app.css') }}">
+</head>
+<body data-page="{% block page %}{% endblock %}" data-role="{{ user.role if user else '' }}">
+  <div class="strip" role="note">Prototype · synthetic data · not for clinical use.</div>
+  {% block body %}{% endblock %}
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <script src="{{ url_for('static', path='js/app.js') }}" defer></script>
+</body>
+</html>

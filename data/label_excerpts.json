@@ -1,0 +1,177 @@
+[
+  {
+    "chunk_id": "LBL-metformin-01",
+    "drug": "metformin",
+    "product": "Metformin Hydrochloride Tablets, USP (Granules Pharmaceuticals Inc.)",
+    "text": "Dosage and Administration: Do not use in patients with eGFR below 30 mL/minute/1.73 m2.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-metformin-02",
+    "drug": "metformin",
+    "product": "Metformin Hydrochloride Tablets, USP (Granules Pharmaceuticals Inc.)",
+    "text": "Dosage and Administration: Initiation is not recommended in patients with eGFR between 30 to 45 mL/minute/1.73 m2.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-metformin-03",
+    "drug": "metformin",
+    "product": "Metformin Hydrochloride Tablets, USP (Granules Pharmaceuticals Inc.)",
+    "text": "Dosage and Administration: Assess risk/benefit of continuing if eGFR falls below 45 mL/minute/1.73 m2.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-metformin-04",
+    "drug": "metformin",
+    "product": "Metformin Hydrochloride Tablets, USP (Granules Pharmaceuticals Inc.)",
+    "text": "Dosage and Administration: Discontinue if eGFR falls below 30 mL/minute/1.73 m2. Assess renal function prior to initiation of metformin hydrochloride tablets and periodically thereafter.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-metformin-05",
+    "drug": "metformin",
+    "product": "Metformin Hydrochloride Tablets, USP (Granules Pharmaceuticals Inc.)",
+    "text": "Dosage and Administration: Adults: up to a maximum dose of 2550 mg per day, given in divided doses.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-metformin-06",
+    "drug": "metformin",
+    "product": "Metformin Hydrochloride Tablets, USP (Granules Pharmaceuticals Inc.)",
+    "text": "Contraindications: Severe renal impairment (eGFR below 30 mL/min/1.73 m2).",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-sitagliptin-01",
+    "drug": "sitagliptin",
+    "product": "JANUVIA (sitagliptin) tablets",
+    "text": "Dosage and Administration: The recommended dose of JANUVIA is 100 mg once daily.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-sitagliptin-02",
+    "drug": "sitagliptin",
+    "product": "JANUVIA (sitagliptin) tablets",
+    "text": "Dosage and Administration: Dosage adjustment is recommended for patients with eGFR less than 45 mL/min/1.73 m2. Assess renal function prior to initiation of JANUVIA and periodically thereafter.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-sitagliptin-03",
+    "drug": "sitagliptin",
+    "product": "JANUVIA (sitagliptin) tablets",
+    "text": "Dosage and Administration: For patients with moderate renal impairment (eGFR 30 to less than 45 mL/min/1.73 m2), the dose of JANUVIA is 50 mg once daily.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-sitagliptin-04",
+    "drug": "sitagliptin",
+    "product": "JANUVIA (sitagliptin) tablets",
+    "text": "Dosage and Administration: For patients with severe renal impairment (eGFR less than 30 mL/min/1.73 m2) or with end-stage renal disease requiring hemodialysis or peritoneal dialysis, the dose of JANUVIA is 25 mg once daily. JANUVIA may be administered without regard to the timing of dialysis.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-gabapentin-01",
+    "drug": "gabapentin",
+    "product": "Gabapentin capsules/tablets (Table 1: Gabapentin Dosage Based on Renal Function)",
+    "text": "Dosage and Administration: Dosage adjustment in patients 12 years of age and older with renal impairment or undergoing hemodialysis is recommended.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-gabapentin-02",
+    "drug": "gabapentin",
+    "product": "Gabapentin capsules/tablets (Table 1: Gabapentin Dosage Based on Renal Function)",
+    "text": "Table 1: Creatinine clearance 60 mL/min or more: total daily dose 900 to 3600 mg/day; regimens 300 TID, 400 TID, 600 TID, 800 TID, 1200 TID.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-gabapentin-03",
+    "drug": "gabapentin",
+    "product": "Gabapentin capsules/tablets (Table 1: Gabapentin Dosage Based on Renal Function)",
+    "text": "Table 1: Creatinine clearance above 30 to 59 mL/min: total daily dose 400 to 1400 mg/day; regimens 200 BID, 300 BID, 400 BID, 500 BID, 700 BID.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-gabapentin-04",
+    "drug": "gabapentin",
+    "product": "Gabapentin capsules/tablets (Table 1: Gabapentin Dosage Based on Renal Function)",
+    "text": "Table 1: Creatinine clearance above 15 to 29 mL/min: total daily dose 200 to 700 mg/day; regimens 200 QD, 300 QD, 400 QD, 500 QD, 700 QD.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-gabapentin-05",
+    "drug": "gabapentin",
+    "product": "Gabapentin capsules/tablets (Table 1: Gabapentin Dosage Based on Renal Function)",
+    "text": "Table 1: Creatinine clearance 15 mL/min: total daily dose 100 to 300 mg/day; regimens 100 QD, 125 QD, 150 QD, 200 QD, 300 QD. For patients with creatinine clearance <15 mL/min, reduce daily dose in proportion to creatinine clearance.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-gabapentin-06",
+    "drug": "gabapentin",
+    "product": "Gabapentin capsules/tablets (Table 1: Gabapentin Dosage Based on Renal Function)",
+    "text": "Table 1: Patients on hemodialysis should receive maintenance doses based on estimates of creatinine clearance, plus a supplemental post-hemodialysis dose administered after each 4 hours of hemodialysis: 125, 150, 200, 250 or 350 mg.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-nitrofurantoin-01",
+    "drug": "nitrofurantoin",
+    "product": "Nitrofurantoin (set_id 04af8b73-7e15-7da8-e063-6294a90af284)",
+    "text": "Contraindications: Nitrofurantoin is contraindicated in patients who have anuria, oliguria, or significant impairment of renal function (creatinine clearance under 60 mL per minute or clinically significant elevated serum creatinine).",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-nitrofurantoin-02",
+    "drug": "nitrofurantoin",
+    "product": "Nitrofurantoin (set_id 04af8b73-7e15-7da8-e063-6294a90af284)",
+    "text": "Warnings and Precautions (Neuropathy): Conditions such as renal impairment (creatinine clearance under 60 mL per minute or clinically significant elevated serum creatinine) may enhance the occurrence of peripheral neuropathy. Monitor patients receiving long-term therapy periodically for changes in renal function.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-levofloxacin-01",
+    "drug": "levofloxacin",
+    "product": "Levofloxacin tablets (Table 3: Dosage Adjustment in Adult Patients with Renal Impairment)",
+    "text": "Dosage and Administration: In patients with renal impairment (creatinine clearance less than 50 mL/min), adjustment of the dosage regimen is necessary. No adjustment is necessary for patients with a creatinine clearance greater than or equal to 50 mL/minute.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-levofloxacin-02",
+    "drug": "levofloxacin",
+    "product": "Levofloxacin tablets (Table 3: Dosage Adjustment in Adult Patients with Renal Impairment)",
+    "text": "Table 3: Usual regimen 750 mg every 24 hours. CrCl 20 to 49 mL/min: 750 mg every 48 hours. CrCl 10 to 19 mL/min: 750 mg initial dose, then 500 mg every 48 hours. Hemodialysis or CAPD: 750 mg initial dose, then 500 mg every 48 hours.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-levofloxacin-03",
+    "drug": "levofloxacin",
+    "product": "Levofloxacin tablets (Table 3: Dosage Adjustment in Adult Patients with Renal Impairment)",
+    "text": "Table 3: Usual regimen 500 mg every 24 hours. CrCl 20 to 49 mL/min: 500 mg initial dose, then 250 mg every 24 hours. CrCl 10 to 19 mL/min: 500 mg initial dose, then 250 mg every 48 hours. Hemodialysis or CAPD: 500 mg initial dose, then 250 mg every 48 hours.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-famotidine-01",
+    "drug": "famotidine",
+    "product": "Famotidine Tablets, USP 20 mg and 40 mg",
+    "text": "Dosage and Administration: Dosage adjustments of famotidine tablets are recommended for patients with moderate to severe renal impairment (creatinine clearance less than 60 mL/min). Use the lowest effective dose.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-famotidine-02",
+    "drug": "famotidine",
+    "product": "Famotidine Tablets, USP 20 mg and 40 mg",
+    "text": "Table 1: Symptomatic nonerosive GERD: 20 mg twice daily, up to 6 weeks.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-famotidine-03",
+    "drug": "famotidine",
+    "product": "Famotidine Tablets, USP 20 mg and 40 mg",
+    "text": "Table 2 (maximum dosage in renal impairment): Symptomatic nonerosive GERD: creatinine clearance 30 to 60 mL/minute: 20 mg once daily; creatinine clearance less than 30 mL/minute: 20 mg every other day. An alternate dosage regimen is 10 mg once daily, using an alternate famotidine formulation.",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  },
+  {
+    "chunk_id": "LBL-famotidine-04",
+    "drug": "famotidine",
+    "product": "Famotidine Tablets, USP 20 mg and 40 mg",
+    "text": "Use in Specific Populations: No dosage adjustment is needed in patients with mild renal impairment (creatinine clearance greater than or equal to 60 mL/minute).",
+    "source": "openFDA drug label API, retrieved 2026-11-21"
+  }
+]
